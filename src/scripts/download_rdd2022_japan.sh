@@ -8,7 +8,7 @@ PROJECT_ROOT="$(dirname "$SCRIPT_DIR")"
 mkdir -p "$PROJECT_ROOT/data"
 
 # Run script to download dataset
-python "$PROJECT_ROOT/datasets/download_dataset.py" --path "$PROJECT_ROOT/data/rdd2022"
+python "$PROJECT_ROOT/datasets/download_dataset.py" --country "japan" --path "$PROJECT_ROOT/data/rdd2022"
 
 # Check the result
 if [ $? -eq 0 ]; then
