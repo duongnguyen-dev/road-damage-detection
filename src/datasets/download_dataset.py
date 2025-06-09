@@ -1,5 +1,5 @@
 import argparse
-from road_damage_detection.datasets.utils import download_dataset
+from src.datasets.utils import download_dataset
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Download RDD2022 dataset to specified path")
